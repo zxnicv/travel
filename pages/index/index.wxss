@@ -1,0 +1,24 @@
+/**index.wxss**/
+.index-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.index-nav__item {
+    padding: 12px 0;
+    font-size: 14px;
+    width: 125px;
+    text-align: center;
+}
+
+.index-nav__item--selected {
+    color: #FF8D00;
+    border-bottom: 2px solid #FF8D00;
+}
+
+.index-list {
+    background: #F1F3F6;
+}

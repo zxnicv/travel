@@ -1,0 +1,29 @@
+<!--pages/index/components/activity/activity.wxml-->
+<view class="activity">
+    <view class="activity-content">
+        <!--<image class="activity-content__img" src={{item.img}}></image>-->
+        <view class="activity-content__right">
+            <view class="activity-content__title"><text>{{item.title}}</text></view>
+            <view>
+                <view class="activity-content__date"><text>{{item.date}}开始</text></view>
+                <view class="activity-content__location"><text>{{item.location}}</text></view>
+            </view>
+            <view class="activity-content__cost">
+                <view class="activity-content__price">
+                    <text>¥{{item.price}}</text>
+                </view>
+                <view class="activity-content__num">
+                    <text>x {{item.num}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="activity-bottom">
+        <view class="activity-bottom__left">
+            <text>报名 {{item.attendNum}}人 | {{item.unpaidNum}}人待付款</text>
+        </view>
+        <view class="activity-bottom__right">
+            <button class="activity-bottom__btn">立即付款</button>
+        </view>
+    </view>
+</view>

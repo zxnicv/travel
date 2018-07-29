@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="index">
+    <view class="index-nav">
+        <view class="index-nav__item index-nav__item--registered {{selectedNavItem === 'registered' && 'index-nav__item--selected'}}"
+              bindtap="onNavTap"
+              data-index="registered">
+            <text>已报名的</text>
+        </view>
+        <view class="index-nav__item index-nav__item--two {{selectedNavItem === 'posted' && 'index-nav__item--selected'}}"
+              bindtap="onNavTap"
+              data-index="posted">
+            <text>我发布的</text>
+        </view>
+        <view class="index-nav__item index-nav__item--three {{selectedNavItem === 'club' && 'index-nav__item--selected'}}"
+              bindtap="onNavTap"
+              data-index="club">
+            <text>俱乐部活动</text>
+        </view>
+    </view>
+    <scroll-view class="index-list">
+        <displayed-activity wx:if="{{selectedNavItem === 'posted' || selectedNavItem === 'club'}}"
+                            wx:for="{{activityList}}"
+                            item="{{item}}"
+                            wx:key="{{index}}"></displayed-activity>
+        <activity wx:if="{{selectedNavItem === 'registered'}}"
+                  wx:for="{{activityList}}"
+                  item="{{item}}"
+                  wx:key="{{index}}"></activity>
+    </scroll-view>
+</view>

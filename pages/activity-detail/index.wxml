@@ -1,0 +1,16 @@
+<!--pages/activity-detail/index.wxml-->
+<view class="detail">
+    <image class="detail-img" src="https://51nbimg.u51.com/0753370dbcee4c3984b71bc8a709db62.png"></image>
+    <view class="detail-content">
+        <view class="detail-header">
+            <text class="detail-header__title">2017中国（杭州）跨境电商发展高峰论坛暨亚马逊卖家华东大会梦想小镇专场</text>
+            <image class="detail-header__hot" src="../../static/img/hot.png"></image>
+            <text class="detail-header__date">2小时前发布</text>
+            <view class="detail-header__tags">
+                <text class="detail-header__tag">户外</text>
+                <text class="detail-header__tag">自驾游</text>
+                <text class="detail-header__tag">体育运动</text>
+            </view>
+        </view>
+    </view>
+</view>

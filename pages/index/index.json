@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "activity": "./components/activity/activity",
+    "displayed-activity": "./components/displayedActivity/index"
+  }
+}
+
+

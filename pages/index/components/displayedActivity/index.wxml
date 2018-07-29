@@ -1,0 +1,21 @@
+<!--pages/index/components/displayedActivity/index.wxml-->
+<view class="activity">
+    <view class="activity-img">
+        <image class="activity-img__body" src="https://51nbimg.u51.com/0753370dbcee4c3984b71bc8a709db62.png"></image>
+        <view class="activity-img__price">
+            <text>¥2000</text>
+        </view>
+    </view>
+    <view class="activity-content">
+        <text class="activity-content__title">{{item.title}}</text>
+        <text class="activity-content__info">{{item.date}} | {{item.location}}</text>
+    </view>
+    <view class="activity-bottom">
+        <view class="activity-bottom__left">
+            <text>{{item.attendNum}} 人报名 | 限{{item.totalNum}}人</text>
+        </view>
+        <view class="activity-bottom__right">
+            <text>{{item.status}}</text>
+        </view>
+    </view>
+</view>

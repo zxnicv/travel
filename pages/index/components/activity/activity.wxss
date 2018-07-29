@@ -1,0 +1,78 @@
+/* pages/index/componentss/activity/activity.wxss */
+.activity {
+    padding: 15px 0 0 16px;
+    background: white;
+    margin-bottom: 12px;
+}
+
+.activity-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.activity-content__img {
+    width: 90px;
+    height: 90px;
+    padding-right: 13px;
+}
+
+.activity-content__title {
+    font-size: 14px;
+    color: #333333;
+}
+
+.activity-content__date, .activity-content__location {
+    color: #999999;
+    font-size: 12px;
+}
+
+.activity-content__cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.activity-content__right {
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-right: 16px;
+}
+
+.activity-content__price, .activity-content__num {
+    font-size: 14px;
+    color: #121212;
+}
+
+.activity-bottom {
+    margin-top: 12px;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid #E6E6E6;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.activity-bottom__left {
+    color: #666666;
+    font-size: 13px;
+}
+
+.activity-bottom__right {
+    padding-right: 16px;
+}
+
+.activity-bottom__btn {
+    width: 86px;
+    height: 27px;
+    font-size: 14px;
+    color: white;
+    background: #FF8D00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

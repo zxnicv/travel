@@ -1,0 +1,58 @@
+/* pages/index/components/displayedActivity/index.wxss */
+.activity {
+    padding: 32rpx 32rpx 0 32rpx;
+    background: white;
+    margin-bottom: 20rpx;
+}
+
+.activity-img {
+    position: relative;
+}
+
+.activity-img__body {
+    width: 686rpx;
+    height: 360rpx;
+}
+
+.activity-img__price {
+    position: absolute;
+    right: 20rpx;
+    bottom: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10rpx 18rpx;
+    font-size: 13px;
+}
+
+.activity-content {
+    padding-bottom: 20rpx;
+}
+
+.activity-content__title {
+    font-size: 16px;
+    color: #333333;
+    display: flex;
+}
+
+.activity-content__info {
+    color: #999999;
+    font-size: 12px;
+    display: flex;
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 20rpx;
+}
+
+.activity-bottom {
+    display: flex;
+    padding: 30rpx 0;
+    justify-content: space-between;
+}
+
+.activity-bottom__left, .activity-bottom__right {
+    color: #666666;
+    font-size: 13px;
+}
+
+.activity-img__price {
+    position: absolute;
+}

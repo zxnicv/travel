@@ -1,0 +1,56 @@
+/* pages/activity-detail/index.wxss */
+.detail {
+    position: relative;
+}
+
+.detail-img {
+    height: 300rpx;
+    width: 750rpx;
+}
+
+.detail-content {
+    background: #F1F3F6;
+    margin-top: -12rpx;
+}
+
+.detail-header {
+    top: -50rpx;
+    position: relative;
+    background: white;
+    padding: 0 24rpx;
+    margin: 0 24rpx;
+}
+
+.detail-header__title {
+    display: flex;
+    padding: 20rpx 40rpx 0rpx 0rpx;
+    font-size: 17px;
+    color: #333333;
+}
+
+.detail-header__date {
+    color: #999999;
+    font-size: 11px;
+}
+
+.detail-header__tags {
+    padding-top: 10rpx;
+    padding-bottom: 30rpx;
+}
+
+.detail-header__tag {
+    font-size: 11px;
+    color: #FFDAAB;
+    padding: 4rpx 20rpx;
+    border: 1px solid #FFDAAB;
+    display: inline-flex;
+    margin-right: 6rpx;
+}
+
+.detail-header__hot {
+    width: 46rpx;
+    height: 59rpx;
+    position: absolute;
+    right: 12rpx;
+    top: -5px;
+}
